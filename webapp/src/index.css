@@ -1,5 +1,8 @@
+/* index.css から見た相対パスで config を指定するのが確実 */
 @config "../tailwind.config.js";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* 任意のカスタムプロパティやユーティリティ */

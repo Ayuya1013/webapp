@@ -1,16 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
-    <!-- index.html の <head> に追加 -->
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>webapp</title>
-  </head>
-  <body class="bg-purple-800">
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-  </body>
 
+    <!-- 任意のフォント -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- ビルド済み CSS を読み込む（開発時は Vite 等のエントリで差し替え） -->
+  </head>
+
+  <body class="bg-purple-800">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
